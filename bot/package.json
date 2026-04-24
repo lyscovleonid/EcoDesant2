@@ -1,0 +1,19 @@
+{
+  "name": "ecodesant-bot",
+  "version": "1.0.0",
+  "description": "Бот для эко-акций MAX",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "dependencies": {
+    "@maxhub/max-bot-api": "^0.2.2",
+    "dotenv": "^16.4.7",
+    "qrcode": "^1.5.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
